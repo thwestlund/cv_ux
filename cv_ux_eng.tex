@@ -1,0 +1,308 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{fontawesome} % For icons
+
+\titleformat{\section}
+  {\normalfont\scshape}{\thesection}{1em}{}
+
+% Set up font and spacing
+\renewcommand{\familydefault}{\sfdefault}
+
+% Define alternating colors
+\newtcolorbox{altbox}[1][]{colback=#1, colframe=white, width=\textwidth, arc=0mm, boxrule=0mm, left=1mm, right=1mm, top=1.5mm, bottom=1.5mm}
+
+% Variable to track if we should use gray or white
+\newcounter{boxnumber}
+\newcommand{\setboxcolor}{%
+  \stepcounter{boxnumber}%
+  \ifodd\value{boxnumber}
+    \def\boxcolor{gray!10}%
+  \else
+    \def\boxcolor{white}%
+  \fi
+}
+
+% Document starts
+\begin{document}
+
+% Title and contact
+\begin{center}
+    \huge \textbf{Thommy Westlund}\\
+    \vspace{0.2cm}
+    \Large UX/UI-Engineer\\
+    \vspace{0.3cm}
+    \normalsize Thommy.westlund@gmail.com \quad | \quad 070-49 45 036 \quad | \quad Malmö, Sverige
+\end{center}
+
+\vspace{0.5cm}
+
+% Introduction
+\noindent \textbf{Sammanfattning:}
+\vspace{0.2cm}
+
+\noindent
+“More than 9 years of experience as a systems developer in various roles, from full-stack and front-end developer to UX designer and project manager. I thrive in roles that involve working with people, which is why I am drawn to user-centered positions. technical background makes me the perfect link between business and technology.”
+\vspace{0.3cm}
+
+% Skills section
+\section*{Skills}
+
+\textbf{UX/UI:}\\
+User stories, Interviews, User testing, Sketches/Prototypes, Workshops, A/B testing, Figma, Adobe XD, Axure, Sketch, Photoshop.
+
+\vspace{0.3cm}
+
+\textbf{Technology:}\\
+C\#, .Net Core, JavaScript, Vue, TypeScript, React, Svelte, CSS, SCSS, AWS, Azure, Git, UML.
+
+\vspace{0.3cm}
+
+\textbf{Development:}\\
+Project management, Jira, Agile development, DevOps, Scrum.
+
+\vspace{0.3cm}
+
+\textbf{Language:}\\
+Swedish (Native), English (Fluent), Danish (Good).
+
+\vspace{0.5cm}
+
+% Experience section
+\section*{Examples of Assignments}
+
+\textbf{Kammarkollegiet - UX/UI Designer}\\
+Kammarkollegiet needed to develop a system to provide employers with transition support. task was to analyze feasibility studies and process mappings created by the requirement analysts. After reviewing this material, I created sketches and prototypes in Figma to visualize system solutions.
+
+The prototypes became a central part of the continued development, ensuring that the employers' needs were accurately represented in the system.
+
+\vspace{0.3cm}
+
+\textbf{Jordbruksverket - UX/UI Designer}\\
+Jordbruksverket urgently needed to replace two UX designers and a tester in a critical project. I participated in requirement work, user interviews, and user story mapping to understand the needs of a specific system. He produced sketches and prototypes in Figma and acted as the responsible expert on accessibility issues.
+
+efforts contributed to a smooth transition and the swift implementation of new solutions, while ensuring accessibility aspects were maintained across several projects.
+
+\vspace{0.3cm}
+
+\textbf{Hoodin AB - UX Engineer}\\
+Hoodin needed to replace two frontend developers while simultaneously driving new development within the company's platform. I took responsibility for needs and requirement analysis through user interviews, producing mockups in Sketch/Figma, as well as performing frontend development. He led a needs-driven approach based on user stories and personas, contributing to the creation of new features and improved codebase.
+
+\vspace{0.3cm}
+
+Hoodin secured several key contracts thanks to the developed functionality, and the main application was successfully upgraded to Vue 3 and TypeScript, with a more efficient and understandable codebase.
+
+\vspace{0.5cm}
+
+% Experience indept section
+\section*{Previous Projects and Assignments}
+
+\textbf{Mercedes-Benz Finans Sverige AB and Denmark AS - Technical Product Owner}\\
+\normalsize \faCalendar \ Aug. 2024 - Ongoing \quad \faMapMarker \ Malmö, Sweden
+
+Mercedes-Benz Finans needed a technically skilled product owner to improve internal processes both in system development and for users of their credit management system, CPMS.
+
+I was the responsible client towards suppliers and an expert for the CPMS system. He was tasked with improving documentation, structuring the backlog, and ensuring that the work followed an agile methodology, Scrum.
+
+I took the lead in structuring and streamlining the development work by introducing better processes for backlog management and documentation. He worked closely with both colleagues and suppliers to create clarity in requirements and deliveries, while ensuring that the work was performed according to agile principles in Scrum.
+
+Through my efforts, both the system development processes and the user experience of CPMS improved. He was appreciated by colleagues, suppliers, and users for his commitment and ability to deliver solutions that met the needs of the business and its users.
+
+\vspace{0.5cm}
+\textbf{Örnsköldsviks Hamn och Logistik AB - UX/UI Designer}\\
+\normalsize \faCalendar \ Dec. 2023 - June 2024 \quad \faMapMarker \ Örnsköldsvik (remote), Sweden
+
+Örnsköldsviks Hamn och Logistik AB needed to develop a new external website and intranet based on their existing design and the capabilities of the CMS system Sitevision.
+
+I was responsible for managing the requirements through documentation and interviews. He created sketches and mockups that were continuously tested and presented to decision-makers. In addition, he developed a unique graphic profile based on the existing external web design and the possibilities within Sitevision.
+
+I worked closely with the client and colleagues to ensure that all design solutions aligned with their needs and technical possibilities. By being responsive and having a good understanding of Sitevision, he developed solutions that were both effective and easy to implement in the system.
+
+Both the client and colleagues were very satisfied with the materials I produced, as he demonstrated great understanding of their needs and delivered solutions that were both aesthetically appealing and technically feasible in Sitevision.
+
+\vspace{0.5cm}
+\textbf{Örnsköldsviks Kommun - UX/UI Designer}\\
+\normalsize \faCalendar \ Dec. 2023 - June 2024 \quad \faMapMarker \ Örnsköldsvik (remote), Sweden
+
+Örnsköldsviks Kommun needed to develop a new intranet that would be unique and tailored to the needs of municipal employees, but with a limited budget.
+
+I was responsible for leading in-depth workshops to identify the municipality's needs and creating a broad design basis with different price ranges. He gathered requirements through documentation and interviews to develop a sustainable and user-friendly interface that met the needs of municipal employees.
+
+Through close collaboration with different clients, who had varying accessibility and design requirements, I developed an interface that balanced these needs. He produced several design proposals that fit within the municipality's budget and worked to ensure that the solutions were long-term sustainable and effective.
+
+I managed to satisfy the client's various needs by creating an intranet that was both cost-effective and functional. This resulted in a solution that met the municipality's high standards for design and accessibility within the given budget constraints.
+
+\vspace{0.5cm}
+\textbf{Jordbruksverket - UX/UI Designer}\\
+\normalsize \faCalendar \ March 2023 - Nov. 2023 \quad \faMapMarker \ Jönköping, Sweden
+
+Jordbruksverket urgently needed to replace two UX designers and a tester within four critical projects. The projects required fast and efficient implementation of solutions to meet user needs and ensure accessibility according to WCAG standards.
+
+I was responsible for ensuring that the requirements for each project were clearly defined through user story mapping and user interviews. He created detailed sketches and interactive prototypes in Axure, Adobe XD, and Figma, depending on the project's technical requirements. Additionally, he was an expert in accessibility and conducted extensive testing for the web, Android, and iOS.
+
+I implemented an agile working method and worked closely with both the development team and users to continuously improve the solutions. He also led workshops to increase the team's understanding of UX and accessibility, and to ensure that the right tools and methods were used. With his technical background, I also supported frontend developers in creating sustainable solutions for HTML semantics and accessibility.
+
+Thanks to my efforts, Jordbruksverket was able to continue their projects quickly and efficiently without interruption, while significantly improving user experience and accessibility. His work was particularly appreciated for the smooth handover and the high quality of the delivered solutions. An important takeaway from these projects was the early and clear discussion of expectations regarding the UX role, as views on UX varied among the teams at Jordbruksverket, which improved collaboration and results overall.
+
+\vspace{0.5cm}
+\textbf{Teledyne FLIR - Solution Architect}\\
+\normalsize \faCalendar \ Dec. 2022 - March 2023 \quad \faMapMarker \ USA (remote), Sweden
+
+Teledyne FLIR hired I for a short project where they needed to evaluate how to manage a critical application that was based on an on-premise solution in-house.
+
+My task was to conduct a thorough evaluation and present an initial execution plan with two possible paths: to retain or replace the application, and the path toward a cloud-based solution.
+
+I conducted interviews with key individuals within the company to understand their needs and priorities. He also evaluated an existing third-party solution as a potential alternative to the current application. Through this work, I developed a feasible plan for both options.
+
+I delivered a detailed execution plan based on the two alternatives, giving Teledyne FLIR a clear way forward. His collaborative and solution-oriented approach was appreciated by everyone involved, which contributed to a positive final result.
+
+\vspace{0.5cm}
+\textbf{Kammarkollegiet - UX/UI Designer}\\
+\normalsize \faCalendar \ Dec. 2022 - June 2023 \quad \faMapMarker \ Karlstad (remote), Sweden
+
+Kammarkollegiet needed to develop a system for transition support. Their feasibility study was already completed, but they needed a digital solution that effectively met the business and user needs.
+
+My task was to analyze the existing feasibility study material and process mappings. He then produced sketches and prototypes in Figma, and acted as an expert in the delivery.
+
+I took the lead in further specifying and deepening the processes by creating complete process mappings. He also conducted user interviews to jointly develop new processes with them. Through continuous dialogue with the clients, he ensured that both requirements and design were aligned with expectations.
+
+The project resulted in a fully functional and user-friendly solution that met Kammarkollegiet's needs. It was a successful and rewarding project where I had the opportunity to focus on UX design without being directly involved in the technical implementation, which was an educational shift.
+
+\vspace{0.5cm}
+\textbf{Hoodin AB - UX Engineer}\\
+\normalsize \faCalendar \ Feb. 2021 - Dec. 2022 \quad \faMapMarker \ Malmö, Sweden
+
+I was hired as a frontend developer at Hoodin with initial responsibility for AWS infrastructure. Over time, his role expanded to include requirements analysis based on demand from both existing and potential customers. At the same time, I worked on further developing the company's products and also managed external web projects.
+
+I was responsible for developing frontend applications in Vue.js, where he also led the upgrade from Vue 2 to Vue 3. His work involved both JavaScript and TypeScript, which contributed to a more robust and flexible codebase.
+
+I took over leadership of requirements analysis, specification, and UX issues, based on market needs and user interviews. He worked closely with the team to ensure that the products and solutions delivered high customer value. He was also active in managing and further developing websites for hiking and cycling trails in southern Sweden, including projects for Region Skåne, Halland, and several municipalities.
+
+Through my efforts, the products' performance and user experience improved, leading to increased customer satisfaction and new business opportunities for Hoodin. The upgrade to Vue 3 and a more efficient codebase made the system easier to maintain and develop further, facilitating future scalability and development.
+
+\vspace{0.5cm}
+\textbf{Inwido AB - UX/UI Designer \& Fullstack Developer}\\
+\normalsize \faCalendar \ Nov. 2016 - Feb. 2021 \quad \faMapMarker \ Jönköping, Sweden
+
+I had a key role in both the development and management of Inwido's IT systems and integration solutions, with a particular focus on improving user experience and efficiency. In his role as a system developer, he was responsible for requirements management, customer contact, and developing features in the business-critical system "Konfiguratorn," used by resellers (B2B) to manage order placement. He created prototypes in Sketch, conducted user tests and A/B tests, and initiated a platform renewal where the system was migrated from Webforms/.NET to React with .NET Core, resulting in a more scalable and efficient solution.
+
+I was also responsible for the development of the "Bildritaren" application, a 3D renderer that visualized window configurations based on machine code from production. By interpreting the system in C-\#, I ensured that the application could handle millions of possible window combinations and
+
+
+\section*{Skills and Expertise}
+
+% Section for Expert level
+\textbf{5. Expert Level}
+
+User Story Mapping, UX Design, UX/UI Design, Accessibility (WCAG), System Development, Availibility Testing, HTML, CSS3, Prototyping (Low-Fidelity/High-Fidelity), User Testing and Analysis, User Research, Agile Development (Scrum, Kanban), Process Mapping, Accessibility Testing (Web, Android, iOS), Figma, Adobe Suite (Illustrator, Photoshop, XD), Sketch, HTML5, SCSS/SASS, UML, User-Centered Design \& Product Development, Requirements Analysis, Wireframes / Mockups, Test of Usability (A/B Testing), Microsoft Visio, Responsive Design, Visual Studio Code, User Scenarios, Analysis and Requirements Gathering, Agile Scrum, Wireframing, Persona Development, Journey Mapping, Flowcharting, Interaction Design
+\vspace{0.3cm}
+
+% Section for Very High level
+\textbf{4. Very High Level}
+
+Vue 3, Vue.js, ASP.NET MVC, Entity Framework, VoiceOver, TalkBack, RESTful APIs, JIRA, Trello, Miro, JavaScript, TypeScript, React.js, .Net, .Net Core, C\#, UI Design, Frontend Development, Design Systems, Git, GitHub, DevOps, MySQL, MS SQL, Axure, Web Forms, Design Thinking, draw.io, RESTful API, Project Management, SOAP API, Microsoft SQL Server, Workshops, Material Design, Windows, Business Development, Cross-Browser Compatibility, Version Control (Git), ESLint, Color Theory, Generative AI
+\vspace{0.5cm}
+
+% Section for High level
+\textbf{3. High Level}
+
+SVN Tortoise, NPM, Webpack, Three.js, Bootstrap, AWS, Microsoft Azure, Nuxt.js, Angular, Node.js, Express.js, Visual Studio, Tailwind CSS, Content Management Systems, CMS, LINQ, Copywriting, AJAX, JQuery, Android Studio, MAC, Integration, NPM/Yarn, Domain-Driven Development, E-commerce Platforms, Information Architecture, Microinteractions, Sitevision
+\vspace{0.5cm}
+
+% Section for Medium level
+\textbf{2. Medium Level}
+
+Pyramid, PHP 7, SQL Server Management Studio, SAFe (Scaled Agile Framework), Python, Manufacturing Industry, Healthcare Industry, Window Manufacturing, Babel, Logistics \& Warehouse Management Systems (WMS), Microsoft Internet Information Services (IIS), Cypress, Jest, InVision
+\vspace{0.5cm}
+
+% Section for Basic level
+\textbf{1. Basic Level}
+
+Terraform, Linux, Entertainment Industry, GraphQL
+
+\vspace{0.5cm}
+
+\section*{Certificate}
+
+% Set color and draw box
+\setboxcolor
+\begin{altbox}[\boxcolor]
+    \textbf{Certified Professional in Accessibility Core Competencies} \hfill 
+
+    \faCalendar \ Mars 2024 - Mars 2027 \quad \faMapMarker \ International Association of Accessibility Professionals
+\end{altbox}
+
+% Education section
+\section*{Education}
+\setcounter{boxnumber}{0}
+% Set color and draw box
+\setboxcolor
+\begin{altbox}[\boxcolor]
+    \textbf{Embedded Systems} \hfill 
+    
+    \faCalendar \ Aug. 2013 - Juni 2015 \quad \faMapMarker \ Jönköpings Tekniska Högskola, Jönköping
+\end{altbox}
+\vspace{-5pt}
+\setboxcolor
+\begin{altbox}[\boxcolor]
+    \textbf{Web Developer} \hfill 
+    
+    \faCalendar \ Aug. 2012 - Juni 2013 \quad \faMapMarker \ Högskolan Väst, Trollhättan
+\end{altbox}
+
+\vspace{0.8cm}
+
+% Work experience section
+\section*{Arbetsgivare}
+
+\setboxcolor
+\begin{altbox}[\boxcolor]
+    \textbf{Mercedes-Benz Finans Sverige AB} \hfill 
+    
+    \faCalendar \ Aug. 2024 - Pågående \quad \faMapMarker \ Malmö, Sverige
+\end{altbox}
+\vspace{-5pt}
+\setboxcolor
+\begin{altbox}[\boxcolor]
+    \textbf{B3 Grit AB} \hfill 
+    
+    \faCalendar \ Dec. 2022 - Juni 2024 \quad \faMapMarker \ Malmö, Sverige
+\end{altbox}
+\vspace{-5pt}
+\setboxcolor
+\begin{altbox}[\boxcolor]
+    \textbf{Hoodin AB} \hfill 
+    
+    \faCalendar \ Feb. 2021 - Dec. 2022 \quad \faMapMarker \ Malmö, Sverige
+\end{altbox}
+\vspace{-5pt}
+\setboxcolor
+\begin{altbox}[\boxcolor]
+    \textbf{Consid AB} \hfill 
+    
+    \faCalendar \ Nov. 2016 - Feb. 2021 \quad \faMapMarker \ Jönköping, Sverige
+\end{altbox}
+\vspace{-5pt}
+\setboxcolor
+\begin{altbox}[\boxcolor]
+    \textbf{NYCE Solutions AB} \hfill 
+    
+    \faCalendar \ Sept. 2015 - Aug. 2016 \quad \faMapMarker \ Malmö, Sverige
+\end{altbox}
+
+\vspace{0.8cm}
+% Footer
+\begin{center}
+    \textit{For more information, check out LinkedIn:}\\
+    \texttt{https://www.linkedin.com/in/thommy-westlund-02090650/}
+\end{center}
+
+\end{document}
